@@ -1,0 +1,124 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px auto;
+    grid-gap: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    height: 800px;
+
+}
+
+.imgbox1,
+.imgbox2,
+.imgbox3,
+.imgbox4,
+.imgbox5,
+.imgbox6,
+.imgbox7,
+.imgbox8,
+.imgbox9,
+.imgbox10,
+.imgbox11{
+    min-height: 150px;
+    min-width: 50px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.imgbox1{
+    background-image: url('imgs/1.png');
+    object-fit: cover;
+    background-position: center;
+}
+
+.imgbox2{
+    background-image: url('imgs/2.png');
+    background-size: cover;
+    background-position: center;
+}
+.imgbox3{
+    background-image: url('imgs/3.png');
+    background-size: cover;
+    background-position: center;
+}
+.imgbox4{
+    background-image: url('imgs/4.png');
+    background-size: cover;
+    background-position: center;
+}
+.imgbox5{
+    background-image: url('imgs/5.png');
+    background-size: cover;
+    background-position: center;
+}
+.imgbox6{
+    background-image: url('imgs/6.png');
+    background-size: cover;
+    background-position: center;
+}
+.imgbox7{
+    background-size: cover;
+    background-position: center;  
+    background-image: url('imgs/7.png');
+
+}
+.imgbox8{
+    background-image: url('imgs/8.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.imgbox9{
+    background-image: url('imgs/9.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.imgbox10{
+    background-image: url('imgs/10.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.imgbox11{
+    background-image: url('imgs/Diseño\ sin\ título\ \(3\).png');
+    background-size: cover;
+    background-position: center;
+    width: 310px;
+    
+}
+
+@media only screen and (min-width: 800px) {
+    .container {
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px 500px 500px 500px 500px;
+    grid-gap: 10px;
+    background-size: cover;
+    background-position: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    height: 800px;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    .container {
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px 500px 500px;
+    grid-gap: 10px;
+    background-size: cover;
+    background-position: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    height: 800px;
+    }
+  }
