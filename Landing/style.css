@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,400;0,500;1,100;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;1,200;1,900&family=Roboto+Slab&family=Roboto:wght@100;300&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
@@ -7,6 +9,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
+  font-family: 'Barlow', sans-serif;
 }
 
 /* Navbar */
@@ -28,12 +31,12 @@ body {
 }
 
 .topnav a:hover {
-  background-color: lightgreen;
-  color: black;
+  background-color: purple;
+  color: white;
 }
 
 .topnav a.active {
-  background-color: lightskyblue;
+  background-color: black;
   color: white;
 }
 
@@ -70,11 +73,43 @@ body {
   align-items: flex-end;
   height: 100vh;
    /*width: 500px; */
-  background-image: url("img/Developer.png");
+  /* background-image: url("img/Developer.png"); */
+  height: 700px;
+  width: 500px;
+  max-height: auto;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: black;
 }
+
+/* Cards section */
+
+.Cards_container{
+  display: flex;
+  color: white;
+  height: 200px;
+  background-color: aqua;
+}
+
+.cards-titles{
+  height: 100px;
+}
+
+.cards-titles > p{
+  text-align: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+} 
+
+
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
