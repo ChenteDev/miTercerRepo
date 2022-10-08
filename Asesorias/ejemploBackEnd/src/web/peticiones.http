@@ -1,0 +1,15 @@
+@api = http://localhost:4000
+
+@api2 = http://localhost:4000/api/v2
+
+### PEticion GET a la api
+GET {{api}}/
+
+### Peticion numero 2
+GET {{api}}/dos
+
+### Peticion numero 3
+GET {{api}}/tres
+
+### nueva peticion
+GET {{api2}}/tres
